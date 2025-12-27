@@ -12,6 +12,19 @@
 4. `model_results/` - Trained models and results
 5. `interpretability_results/` - Model explanation visualizations
 
+## Reqirements
+  `pip install flask` -Flask==2.3.3
+  `pip install pandas as pd` -pandas==2.0.3
+  `pip install numpy as np` -numpy==1.24.3
+  `pip install scikit-learn` -scikit-learn==1.3.0
+  `pip install matplotlib` -matplotlib==3.7.2
+  `pip install seaborn` -seaborn==0.12.2
+  `pip install shap` -shap==0.42.1
+  `pip install lime` -lime==0.2.0.1
+  `pip install gunucorn` -gunicorn==20.1.0
+  `pip install werkzeug` -Werkzeug==2.3.7
+  `pip install joblib` -joblib==1.3.2
+
 ## How to Run
 1. Train models: `python ml_model_training.py`
 2. Interpretability: `python model_interpretability.py`
